@@ -67,7 +67,7 @@
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/star_big_on" />
 
@@ -92,7 +92,7 @@
                     <ImageView
                         android:id="@+id/imageView9"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/presence_video_online" />
 
@@ -151,7 +151,7 @@
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/presence_away" />
 
@@ -177,7 +177,7 @@
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
@@ -202,7 +202,7 @@
                     <ImageView
                         android:id="@+id/imageView6"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/btn_star_big_on" />
 
@@ -238,7 +238,7 @@
                         android:padding="5dp"
                         android:text="取消"
                         android:textColor="#F8F7F7"
-                        android:textSize="16sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView12"
@@ -265,7 +265,7 @@
                     <ImageView
                         android:id="@+id/imageView11"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/presence_away" />
                 </LinearLayout>
