@@ -296,7 +296,7 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="148dp"
+                        android:layout_width="150dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/presence_video_online" />
@@ -322,16 +322,72 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="預約乘坐"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
                 </LinearLayout>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/japan_flag" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="日本 〒554-0031 大阪府大阪市此花區櫻島二丁目1番33號"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
