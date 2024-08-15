@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void UniversalIndexPage(View view){
         Intent i = new Intent();
         i.setAction(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("https://www.usj.co.jp/web/zh/tw/access"));
+        i.setData(Uri.parse("https://metronine.osaka/tw/spot-details/?spot_id=15681088883414"));
         startActivity(i);
     }
 
